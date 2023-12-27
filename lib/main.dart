@@ -7,11 +7,11 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-      backgroundColor: Colors.indigo,
-      appBar: AppBar(
+      backgroundColor: Color.fromARGB(255, 90, 6, 169),
+      /*appBar: AppBar(
         title: Text('Tataboq Sora'),
         backgroundColor: Colors.indigo[800],
-      ),
+      ),*/
       body: ImagePage(),
     ),
   ));
